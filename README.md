@@ -3,6 +3,10 @@ Prototype of an interactive stock watchlist.
 
 This application was built with AI using [Perplexity Computer](https://www.perplexity.ai/hub/blog/introducing-perplexity-computer).
 
-# Overview
+## Overview
 
 ![Perplexity Computer Prototype](https://github.com/johnmuchow/LevelUpTools-Pullback-Watchlist/blob/main/DarkThemeScreenshot.png)
+
+## Interactive Demo
+
+[Pullback Watchlist](https://johnmuchow.github.io/LevelUpTools-Pullback-Watchlist/)
