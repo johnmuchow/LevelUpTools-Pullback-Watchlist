@@ -1,9 +1,8 @@
 # Levelup-Pullback-Watchlist
-Prototype of an interactive watchlist of stocks in a pullback.
+Prototype of an interactive stock watchlist.
 
-This application was built with AI using [Perplexity Computer]([url](https://www.perplexity.ai/hub/blog/introducing-perplexity-computer)).
+This application was built with AI using [Perplexity Computer](https://www.perplexity.ai/hub/blog/introducing-perplexity-computer).
 
-# Video Overview
+# Overview
 
-[![Perplexity Computer Prototype]([https://img.youtube.com](https://github.com/user-attachments/assets/cb22d150-519b-461b-a6d4-1e5dacd963ff))]([https://www.youtube.com](https://github.com/user-attachments/assets/cb22d150-519b-461b-a6d4-1e5dacd963ff))
-
+![Perplexity Computer Prototype](https://github.com/johnmuchow/LevelUpTools-Pullback-Watchlist/blob/main/DarkThemeScreenshot.png)
