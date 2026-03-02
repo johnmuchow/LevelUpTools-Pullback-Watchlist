@@ -226,6 +226,7 @@ a:hover {
   flex-direction: column;
   align-items: flex-end;
   gap: 8px;
+  margin-left: auto;
 }
 
 .issue-date {
@@ -1215,6 +1216,99 @@ a:hover {
   background: var(--negative);
 }
 
+/* ---------- METHODOLOGY SECTION ---------- */
+.methodology {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.methodology-card {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 32px 36px;
+}
+
+.methodology-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.methodology-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-light);
+  color: var(--accent);
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.methodology-title {
+  font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.methodology-intro {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.methodology-intro a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.methodology-intro a:hover {
+  text-decoration: underline;
+}
+
+.methodology-criteria {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.criteria-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+.criteria-check {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 15px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.criteria-note {
+  color: var(--text-muted);
+  font-style: italic;
+  font-size: 13px;
+}
+
+@media (max-width: 640px) {
+  .methodology-card {
+    padding: 24px 20px;
+  }
+}
+
 /* ---------- FOOTER ---------- */
 .site-footer {
   padding: 40px 0 32px;
@@ -1254,6 +1348,11 @@ a:hover {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
+  text-decoration: none;
+}
+
+.footer-brand-name:hover {
+  text-decoration: underline;
 }
 
 .footer-links {
@@ -1364,7 +1463,7 @@ a:hover {
 
 @media (max-width: 640px) {
   .brand-name {
-    font-size: 24px;
+    font-size: 20px;
   }
   .section-title {
     font-size: 22px;
